@@ -10,5 +10,9 @@ export default [
   {
     path: '/test',
     component: () => import('../views/Test/Test.vue')
+  },
+  {
+    path: '/voicer',
+    component: () => import('../views/Voicer/Voicer.vue')
   }
 ]
