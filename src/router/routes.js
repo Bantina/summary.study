@@ -8,11 +8,15 @@ export default [
     component: () => import('../views/Index/Index.vue')
   },
   {
-    path: '/test',
-    component: () => import('../views/Test/Test.vue')
-  },
-  {
     path: '/voicer',
     component: () => import('../views/Voicer/Voicer.vue')
+  },
+  {
+    path: '/shadow',
+    component: () => import('../views/Shadow/Shadow.vue')
+  },
+  {
+    path: '/catalog',
+    component: () => import('../views/Catalog/Catalog.vue')
   }
 ]

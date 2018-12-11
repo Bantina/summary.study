@@ -5,7 +5,7 @@ const isDev = process.env.NODE_ENV === 'development'
 
 module.exports = {
   host: '0.0.0.0',
-  port: 6001,
+  port: 6006,
   // 代理服务配置，详见 https://webpack.js.org/configuration/dev-server/#devserver-proxy
   proxy: {
     '/LiveExam': {

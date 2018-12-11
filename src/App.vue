@@ -2,8 +2,9 @@
   <div class="wrapper">
     <nav>
       <router-link class="link" to="/">首页</router-link>
-      <router-link class="link" to="/test">test</router-link>
       <router-link class="link" to="/voicer">Voicer</router-link>
+      <router-link class="link" to="/shadow">Shadow</router-link>
+      <router-link class="link" to="/catalog">目录树管理</router-link>
     </nav>
     <div class="content">
       <router-view></router-view>

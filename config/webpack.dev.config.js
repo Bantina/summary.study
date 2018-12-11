@@ -33,7 +33,7 @@ const config = merge(baseConfig, {
   },
   resolve: {
     alias: {
-      vue: join(__dirname, '../node_modules/vue/dist/vue.esm.js')
+      vue: join(__dirname, '../node_modules/vue/dist/vue.esm.js') // vue 入口
     }
   },
   plugins: [
